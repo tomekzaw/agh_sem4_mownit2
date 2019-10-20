@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
+body, input, button {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+strong {
+    font-weight: 700;
+}
+
+#logo {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 0;
+    letter-spacing: -0.1rem;
+}
+
+#logo a {
+    text-decoration: none;
+    border: none;
+}
+
+#logo :nth-child(1),
+#logo :nth-child(5) {
+    color: #DB4437; /* red */
+}
+
+#logo :nth-child(4) {
+    color: #F4B400; /* yellow; */
+}
+
+#logo :nth-child(3),
+#logo :nth-child(7) {
+    color: #0F9D58; /* green */
+}
+
+#logo :nth-child(6) {
+    color: #4285F4; /* blue */
+}
+
+#logo :nth-child(2),
+#logo :nth-child(8) {
+    color: #333333 /* black */
+}
+
+h1#logo {
+    margin: 150px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+h1#logo span {
+    font-size: 90pt;
+}
+
+h2#logo {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h2#logo span {
+    font-size: 36pt;
+}
+
+#form {
+    font-size: 0;
+    text-align: center;
+}
+
+#form #query {
+    font-size: 16pt;
+    margin: 40px 0 60px 0;
+    padding: 10px;
+    width: 550px;
+}
+
+#form .button {	
+    font-size: 16pt;
+    padding: 9px 20px;
+}
+
+#form #submit {
+    margin-right: 20px;
+}
+
+#top {
+    margin-top: 30px;
+}
+
+#form-inline {
+    font-size: 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#form-inline #query {
+    font-size: 13pt;
+    margin: 0 -2px 0 40px;
+    padding: 8px 10px;
+    width: 250px;
+}
+
+#form-inline #submit {
+    font-size: 13pt;
+    padding: 7px 12px;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+#results {
+    margin: 20px 0 80px 0;
+}
+
+#results #error {
+    font-size: 14pt;
+    color: #DB4437; /* red */    
+}
+
+#results #correlations_plot {
+    margin: 0 0 40px 20px;
+    width: 40%;
+    float: right;
+}
+
+#results #info {
+    margin-bottom: 30px;
+    color: gray;
+}
+
+#results #result {
+    margin-bottom: 30px;
+}
+
+#result .name {
+    font-size: 14pt;
+    font-weight: normal;
+    margin: 0 0 4px 0;
+}
+
+#result .name a {
+    text-decoration: none;
+    color: rgb(38, 98, 196);
+}
+
+#result .name a:hover {
+    text-decoration: underline;
+}
+
+#result .url {
+    color: #0F9D58; /* green */
+}
+
+#results .correlation {
+    color: darkgray;
+    margin-left: 8px;
+}
+
+#results .content {
+    margin: 5px 0 0 0;
+    line-height: 1.15rem;
+}
